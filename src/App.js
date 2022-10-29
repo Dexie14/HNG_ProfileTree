@@ -1,7 +1,10 @@
 import "./App.css";
 import profile__img from "./Images/profile__img.svg";
 import Avatar from "./Images/_Avatar share button.svg";
+import Avatar_mobile from "./Images/_Avatar share button_Mobile.svg";
 import Slack from "./Images/slack.svg";
+import I4G from "./Images/I4G.svg";
+import ZuriInternship_Logo from "./Images/Zuri.Internship_Logo.svg";
 import Social_icon from "./Images/Social icon.svg";
 
 function App() {
@@ -15,6 +18,7 @@ function App() {
         </div>
         <figure>
           <img src={Avatar} alt="share" id="share" />
+          <img src={Avatar_mobile} alt="share" id="share_mobile" />
         </figure>
       </header>
       <main className="Links">
@@ -29,8 +33,11 @@ function App() {
           <img src={Social_icon} alt="Social_icon"/>
         </div>
       </main>
+        <hr></hr>
       <footer>
-        
+          <img src={ZuriInternship_Logo} alt="ZuriInternship_Logo" />
+          <p>HNG Internship 9 Frontend Task</p>
+          <img src={I4G} alt="I4G"/>
       </footer>
     </div>
   );
