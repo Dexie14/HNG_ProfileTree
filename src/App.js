@@ -25,9 +25,9 @@ function App() {
         <a href="https://twitter.com/adeluadeoniye14" id="twitter" target="_blank" rel="noreferrer">Twitter Link</a>
         <a href="https://training.zuri.team/" id="btn__zuri" target="_blank" rel="noreferrer">Zuri Team</a>
         <a href="http://books.zuri.team" id="books" target="_blank" rel="noreferrer" title="This is where you find books about design and coding">Zuri Books</a>
-        <a href="https://books.zuri.team/python-for-beginners?ref_id=<Adeoniye>" id="book__python" target="_blank" rel="noreferrer">Python Books</a>
-        <a href="https://background.zuri.team" id="pitch" target="_blank" rel="noreferrer">Background Check for Coders</a>
-        <a href="https://books.zuri.team/design-rules" id="book__design" target="_blank" rel="noreferrer">Design Books</a>
+        <a href="https://books.zuri.team/python-for-beginners?ref_id=<Adeoniye>" id="book__python" target="_blank" rel="noreferrer" title="where you feature the book as if you were selling it">Python Books</a>
+        <a href="https://background.zuri.team" id="pitch" target="_blank" rel="noreferrer" title="where you pitch a service for doing background checks on coders">Background Check for Coders</a>
+        <a href="https://books.zuri.team/design-rules" id="book__design" target="_blank" rel="noreferrer" title="where you pitch the free design book offered by Zuri">Design Books</a>
         <div className="social"> 
           <img src={Slack} alt="slack"/>
           <img src={Social_icon} alt="Social_icon"/>
