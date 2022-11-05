@@ -65,7 +65,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <button id="btn_submit">{value}</button>
+        <button id="btn__submit">{value}</button>
       </form>
       <hr></hr>
       <footer>
